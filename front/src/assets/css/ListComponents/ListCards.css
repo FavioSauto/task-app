@@ -1,0 +1,67 @@
+.ListCards {
+  margin: 0 4px;
+  padding: 0 4px;
+}
+
+.ListCard {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 0 rgb(9 30 66 / 25%);
+  cursor: pointer;
+  margin-bottom: 8px;
+  max-width: 300px;
+  min-height: 20px;
+  text-decoration: none;
+}
+
+.ListCard__details {
+  padding: 6px 8px 2px;
+}
+
+.ListCard__details--textarea {
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  margin-bottom: 4px;
+  max-height: 162px;
+  min-height: 54px;
+  padding: 0;
+  overflow: hidden;
+  overflow-wrap: break-word;
+}
+
+.ListCard__details--textarea:active,
+.ListCard__details--textarea:focus {
+  outline: none;
+}
+
+.CreatorControls__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 6px 12px;
+  text-decoration: none;
+  margin: 8px 4px 0 0;
+  background-color: #5aac44;
+  border: none;
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.CreatorControls__cancel {
+  font-size: 14px;
+  padding: 6px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: rgba(9, 30, 66, 0.04);
+}
+
+.ListCards__createTaskWrapper--hide {
+  display: none;
+}

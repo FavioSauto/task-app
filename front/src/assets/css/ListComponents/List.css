@@ -1,0 +1,12 @@
+.ListWrapper {
+  width: 280px;
+  height: 100%;
+  display: inline-block;
+}
+
+.List {
+  background-color: #ebecf0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
